@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+    background: #000000;
+}
+
+.header-logo {
+    display: block;
+}
+/*BANNER CIMA DESKTOP E MOBILE*/
+.main-banner {
+    display: block;
+    width: 100%;
+}
+
+.main-banner-desktop {
+    width: 100%;
+}
+
+.main-banner-mobile {
+    width: 100%;
+}
+/*BANNER CIMA DESKTOP E MOBILE*/
+
+/*INFOCARD*/
+.top-infocard {
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top-infocard-text {
+    display: grid;
+    justify-items: center;
+    margin: 65px;
+}
+
+.top-infocard-subtitle {
+    max-width: 691px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+    margin: -35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.top-infocard-title {
+    max-width: 640px;
+    font-size: 3rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.top-infocard-description {
+    max-width: 766px;
+    height: 56px;
+    text-align: left;
+    margin-top: 6px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.top-infocard-image {
+    width: 315px;
+    height: 315px;
+    align-items: center;
+    margin: 0 0 187px 0;
+}
+/*INFOCARD*/
+
+/*CARD DE CIMA*/
+.top-cards {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 20px;
+    justify-content: center;
+    padding: 0 0 80px 0;
+}
+
+.top-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 26px 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+}
+
+.top-card-image {
+    display: block;
+    margin-bottom: 26px;
+}
+
+
+.top-card-description{
+    width: 300px;
+    height: 95px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+/*CARD DE CIMA*/
+
+/*FOTOS NOTEBOOK DESKTOP*/
+.bottom-infocard-desktop {
+    width: 100%;
+    background: #E0E0E0;
+}
+
+.bottom-infocards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 63px 90px 141px 90px;
+}
+
+.bottom-infocards-desktop {
+    width: 556px;
+    height: 520px;
+}
+/*FOTOS NOTEBOOK DESKTOP*/
+
+/*FOTOS NOTEBOOK MOBILE*/
+.bottom-infocard-mobile {
+    width: 100%;
+    height: 484px;
+    align-items: center;
+    background: #E0E0E0;
+    padding-top: 32px;
+}
+
+.bottom-infocard-wrapper-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 23px;
+}
+
+.bottom-infocards-mobile-image {
+    width: 177px;
+    height: 179px;
+}
+
+.bottom-infocards-mobile-image-baixo {
+    width: 368px;
+    height: 372px;
+}
+
+/*FOTOS NOTEBOOK MOBILE*/
+
+/*CARD DE BAIXO*/
+.bottom-cards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 279px 72px 0px 72px;
+}
+        
+.bottom-card {
+    width: 432px;
+    height: 332px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 26px 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.bottom-card-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 26px;
+}
+
+.bottom-card-description{
+    max-width: 367px;
+    max-height: 113px;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+/*CARD DE BAIXO*/
+
+/*DESCRIÇÂO DE BAIXO*/
+.short-card {  
+    text-align: center;
+}
+
+.short-cards {
+    height: 158px;
+    display: grid;
+    justify-content: center;
+    margin: 138px 0 0 0;
+
+}
+
+.short-title {
+    height: 315px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.short-description {
+    max-width: 550px;
+    height: 100%;
+    text-align: center;
+    font-weight: 400;
+    padding: 18px 18px 0 18px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+/*DESCRIÇÂO DE BAIXO*/
+
+/*BANNER DE BAIXO MOBILE E DESKTOP*/
+.middle-banner-desktop {
+    display: list-item;
+    margin-top: 51px;
+    padding: 0;
+    justify-content: center;
+}
+
+.middle-banner-image-desktop {
+    max-width: 100%;
+    padding: 0;
+}
+
+.middle-banner-image-mobile {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0 0 0;
+}
+/*BANNER DE BAIXO COM ÓCULOS MOBILE E DESKTOP*/
+
+/*RODA PÉ*/
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 104px;
+    padding: 38px 0;
+    background: #000000;
+}
+
+.footer-icons {
+    display: flex;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-icon {
+    margin: 0 8px;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    line-height: 12px;
+    font-size: 10px;
+    color: #BDBDBD;
+}
+/*RODA PÉ*/
